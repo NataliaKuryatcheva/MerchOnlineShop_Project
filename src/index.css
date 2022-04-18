@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Source Serif 4', sans-serif, "Nunito" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar-logo, .navbar-brand {
+    justify-self: start;
+    position: absolute;
+    width: 90px;
+    cursor: pointer;
+    align-items: center !important;
+}
+
+.navbar-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 30px;
+    text-align: center;
+    width: 40vw;
+    height: 6vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.tag:not(body).is-primary {
+    background-color: #d99888 !important;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #d99888 !important;
+    color: #d99888 !important;
+}
+.button.is-primary.is-outlined:hover,
+.button.is-primary.is-outlined:focus {
+    background-color: #d99888 !important;
+    color: #fff !important;
+}
+.button.is-primary.is-outlined:focus {
+    box-shadow: 0 0 10px rgb(217, 152, 136, 0.6) !important;
+}
