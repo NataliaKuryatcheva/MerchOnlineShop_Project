@@ -109,6 +109,9 @@ export default class App extends Component {
         >
             <Router ref={this.routerRef}>
                 <div className="App">
+                    <header>
+                        <span id="shop-name">Merch Online Shop</span>
+                    </header>
                     <nav
                         className="navbar container"
                         role="navigation"

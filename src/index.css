@@ -13,6 +13,20 @@ code {
     monospace;
 }
 
+header {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #d99888;
+}
+
+#shop-name {
+    font-size: 32pt;
+    margin: auto;
+}
+
 .navbar-logo, .navbar-brand {
     justify-self: start;
     position: absolute;
@@ -41,11 +55,13 @@ code {
     border-color: #d99888 !important;
     color: #d99888 !important;
 }
+
 .button.is-primary.is-outlined:hover,
 .button.is-primary.is-outlined:focus {
     background-color: #d99888 !important;
     color: #fff !important;
 }
+
 .button.is-primary.is-outlined:focus {
     box-shadow: 0 0 10px rgb(217, 152, 136, 0.6) !important;
 }
